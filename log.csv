@@ -1,0 +1,9 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1648447021308,1851,Book List,200,OK,Thread Group 1-1,text,true,,3465,195,1,1,https://demoqa.com/BookStore/v1/Books%20,1841,0,1531
+1648447023171,1587,Customer login,200,OK,Thread Group 1-1,text,true,,433,296,1,1,https://customer-test-api.herokuapp.com/customer/api/v1/login,1586,0,1296
+1648447024821,307,Customer List,200,OK,Thread Group 1-1,text,false,No results for path: $['Customers'][0]['id'],13682,381,1,1,https://customer-test-api.herokuapp.com/customer/api/v1/list,292,0,0
+1648447025153,292,Search customer,404,Not Found,Thread Group 1-1,text,false,Test failed: text expected to contain /101/,298,384,1,1,https://customer-test-api.herokuapp.com/customer/api/v1/get/101,292,0,0
+1648447028620,285,Create new Customer,201,Created,Thread Group 1-1,text,true,,415,572,1,1,https://customer-test-api.herokuapp.com/customer/api/v1/create,285,0,0
+1648447028906,2312,Create Customer,201,Created,Thread Group 1-1,text,true,,285,403,1,1,https://customer-test-api.herokuapp.com/customer/api/v1/create,2312,0,0
+1648447031220,5317,Customer Update,404,Not Found,Thread Group 1-1,text,false,,298,556,1,1,https://customer-test-api.herokuapp.com/customer/api/v1/update/101,5317,0,0
+1648447036540,843,Delete,404,Not Found,Thread Group 1-1,text,false,,293,409,1,1,https://customer-test-api.herokuapp.com/customer/api/v1/delete/101,843,0,0
